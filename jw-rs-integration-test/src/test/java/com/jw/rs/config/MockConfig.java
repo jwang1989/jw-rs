@@ -7,6 +7,9 @@ import org.springframework.context.annotation.Configuration;
 
 /**
  * Spring bean config for mock resource.
+ *
+ * @author JWang
+ * @since Jan 02, 2018
  */
 @Configuration
 public class MockConfig {

@@ -8,6 +8,12 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
 
+/**
+ * Spring boot application for integration test.
+ *
+ * @author JWang
+ * @since Jan 02, 2018
+ */
 @Configuration
 @EnableAutoConfiguration
 @Import(value = { MockConfig.class, RestCoreConfig.class })
