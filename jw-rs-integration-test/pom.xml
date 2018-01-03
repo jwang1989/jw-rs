@@ -57,12 +57,6 @@
             <version>1.4.190</version>
             <scope>test</scope>
         </dependency>
-        <dependency>
-            <groupId>ojdbc6</groupId>
-            <artifactId>ojdbc6</artifactId>
-            <version>11.2.0.4</version>
-            <scope>test</scope>
-        </dependency>
     </dependencies>
     <build>
         <testResources>
